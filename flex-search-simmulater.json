@@ -1,0 +1,80 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ค้นหาเพิ่มขึ้น",
+        "size": "32px",
+        "color": "#ffffff",
+        "weight": "bold",
+        "offsetTop": "56px",
+        "offsetStart": "57px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1153916859498901514/Rectangle_364_2.png",
+        "position": "absolute",
+        "size": "130px",
+        "offsetStart": "205px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1153918561958498304/Group_6569_3.png",
+        "position": "absolute",
+        "size": "66px",
+        "offsetTop": "113px",
+        "offsetStart": "224px"
+      },
+      {
+        "type": "image",
+        "url": "https://media.discordapp.net/attachments/1130113229700477089/1153918950443331594/search_1.png",
+        "position": "absolute",
+        "size": "38px",
+        "offsetStart": "205px",
+        "offsetTop": "135px"
+      }
+    ],
+    "background": {
+      "type": "linearGradient",
+      "angle": "270deg",
+      "startColor": "#EE7623",
+      "endColor": "#FF8A00"
+    },
+    "height": "174px"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "มีสินค้าใกล้เคียงอีกมายมาย",
+        "size": "18px",
+        "weight": "bold",
+        "color": "#373737",
+        "offsetTop": "24px"
+      }
+    ],
+    "height": "96px",
+    "alignItems": "center"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "คลิกเลย",
+          "uri": "http://linecorp.com/"
+        },
+        "style": "primary",
+        "color": "#F68013"
+      }
+    ]
+  }
+}
